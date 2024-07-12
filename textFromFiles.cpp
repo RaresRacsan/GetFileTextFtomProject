@@ -6,7 +6,7 @@
 namespace fs = std::filesystem;
 
 int main() {
-    // change the name of the result file
+    // change the name of the merging file
     std::string outputFileName = "merged_files.txt";
     std::ofstream outputFile(outputFileName);
 
